@@ -67,6 +67,8 @@ export function createHandleRequest(
     }
 
     if (handlers.handleLoader) {
+      // TODO: how does xxx_vxrn_loader work?
+      //       (hydration on initial SSR also runs loader request?)
       console.log('pathname?', pathname)
       const isClientRequestingNewRoute = pathname.endsWith('_vxrn_loader.js')
       if (isClientRequestingNewRoute) {

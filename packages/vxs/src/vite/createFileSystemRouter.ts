@@ -41,6 +41,8 @@ export function createFileSystemRouter(options: Options): Plugin {
           //   return indexHtml
           // }
 
+          console.log('[handleSSR]', route, url, loaderProps);
+
           const routeFile = join(root, route.file)
 
           // importing resetState causes issues :/
@@ -65,11 +67,17 @@ export function createFileSystemRouter(options: Options): Plugin {
 
             const { appHtml, headHtml } = await render(loaderProps)
 
+            // dev ssr html
+            // TODO: where is build?
             return getHtml({
               appHtml,
               headHtml,
               loaderData,
               template,
+              // TODO:
+              // want utility like
+              //   `matchRoute: (url: string, routes: Route[]) => Route[]
+              // then each `Route` holds which assets are associated with.
               preloads: [],
             })
           } catch (err) {
@@ -98,7 +106,7 @@ export function createFileSystemRouter(options: Options): Plugin {
             transformedJS = replaceLoader(transformedJS, loaderData)
           }
 
-          console.log('returning', loaderData, transformedJS)
+          console.log('[handleLoader] returning', route, loaderData)
 
           return transformedJS
         },
@@ -115,6 +123,7 @@ export function createFileSystemRouter(options: Options): Plugin {
       return () => {
         server.middlewares.use(async (req, res, next) => {
           try {
+            console.log("@@@@@@@@ [handleRequest]", req.originalUrl);
             const reply = await handleRequest(await convertIncomingMessageToRequest(req))
 
             if (!reply) {
