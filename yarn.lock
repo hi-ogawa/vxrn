@@ -5668,12 +5668,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vxrn/react-native-prebuilt@0.1.73, @vxrn/react-native-prebuilt@workspace:packages/react-native-prebuilt":
+"@vxrn/react-native-prebuilt@0.1.76, @vxrn/react-native-prebuilt@workspace:packages/react-native-prebuilt":
   version: 0.0.0-use.local
   resolution: "@vxrn/react-native-prebuilt@workspace:packages/react-native-prebuilt"
   dependencies:
     "@tamagui/build": ^1.99.1
-    "@vxrn/vite-flow": 0.1.73
+    "@vxrn/vite-flow": 0.1.76
     esbuild: ~0.19.3
     fs-extra: ^11.2.0
     import-meta-resolve: ^4.0.0
@@ -5683,7 +5683,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vxrn/safe-area@0.1.73, @vxrn/safe-area@workspace:packages/safe-area":
+"@vxrn/safe-area@0.1.76, @vxrn/safe-area@workspace:packages/safe-area":
   version: 0.0.0-use.local
   resolution: "@vxrn/safe-area@workspace:packages/safe-area"
   dependencies:
@@ -5692,7 +5692,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vxrn/vite-flow@0.1.73, @vxrn/vite-flow@workspace:packages/vite-flow":
+"@vxrn/vite-flow@0.1.76, @vxrn/vite-flow@workspace:packages/vite-flow":
   version: 0.0.0-use.local
   resolution: "@vxrn/vite-flow@workspace:packages/vite-flow"
   dependencies:
@@ -5704,7 +5704,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vxrn/vite-native-client@0.1.73, @vxrn/vite-native-client@workspace:packages/vite-native-client":
+"@vxrn/vite-native-client@0.1.76, @vxrn/vite-native-client@workspace:packages/vite-native-client":
   version: 0.0.0-use.local
   resolution: "@vxrn/vite-native-client@workspace:packages/vite-native-client"
   dependencies:
@@ -5716,7 +5716,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vxrn/vite-native-hmr@0.1.73, @vxrn/vite-native-hmr@workspace:packages/vite-native-hmr":
+"@vxrn/vite-native-hmr@0.1.76, @vxrn/vite-native-hmr@workspace:packages/vite-native-hmr":
   version: 0.0.0-use.local
   resolution: "@vxrn/vite-native-hmr@workspace:packages/vite-native-hmr"
   dependencies:
@@ -5728,7 +5728,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vxrn/vite-native-swc@0.1.73, @vxrn/vite-native-swc@workspace:packages/vite-native-swc":
+"@vxrn/vite-native-swc@0.1.76, @vxrn/vite-native-swc@workspace:packages/vite-native-swc":
   version: 0.0.0-use.local
   resolution: "@vxrn/vite-native-swc@workspace:packages/vite-native-swc"
   dependencies:
@@ -7975,11 +7975,11 @@ __metadata:
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.6.3
     patch-package: ^8.0.0
-    react: 19.0.0-beta-9d76c954cf-20240510
+    react: 19.0.0-beta-26f2496093-20240514
     react-native: 0.73.2
     react-test-renderer: 18.2.0
     typescript: ^5.2.2
-    vxrn: 0.1.73
+    vxrn: 0.1.76
   languageName: unknown
   linkType: soft
 
@@ -7995,15 +7995,15 @@ __metadata:
     hono: ^4.3.10
     p-map: ^7.0.2
     patch-package: ^8.0.0
-    react: 19.0.0-beta-9d76c954cf-20240510
-    react-dom: 19.0.0-beta-9d76c954cf-20240510
+    react: 19.0.0-beta-26f2496093-20240514
+    react-dom: 19.0.0-beta-26f2496093-20240514
     react-native: 0.73.2
     react-native-reanimated: ~3.3.0
     react-native-web: ^0.19.11
     sirv: ^2.0.4
     tamagui: ^1.99.1
-    vxrn: 0.1.73
-    vxs: 0.1.73
+    vxrn: 0.1.76
+    vxs: 0.1.76
   languageName: unknown
   linkType: soft
 
@@ -11864,14 +11864,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:19.0.0-beta-9d76c954cf-20240510":
-  version: 19.0.0-beta-9d76c954cf-20240510
-  resolution: "react-dom@npm:19.0.0-beta-9d76c954cf-20240510"
+"react-dom@npm:19.0.0-beta-26f2496093-20240514":
+  version: 19.0.0-beta-26f2496093-20240514
+  resolution: "react-dom@npm:19.0.0-beta-26f2496093-20240514"
   dependencies:
-    scheduler: 0.25.0-beta-9d76c954cf-20240510
+    scheduler: 0.25.0-beta-26f2496093-20240514
   peerDependencies:
-    react: 19.0.0-beta-9d76c954cf-20240510
-  checksum: 9f0ca75d345177abdb04ec8f66ac260f8b2766ae13b9453d94cd9c8a35fd472b9aca3ebf6a5095ba1c61e19d77232bfe2cc6c2cbac4e0ae1e92bc4650850120e
+    react: 19.0.0-beta-26f2496093-20240514
+  checksum: 08e2927c5c2ea933fd23069bce541f3d8d14e99835db757a8816a7955c84c5ccd36d6f76655e8fa003e2d76c4f98536a2c7116de49885945c3d53d7c1d445525
   languageName: node
   linkType: hard
 
@@ -12108,10 +12108,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.0.0-beta-9d76c954cf-20240510":
-  version: 19.0.0-beta-9d76c954cf-20240510
-  resolution: "react@npm:19.0.0-beta-9d76c954cf-20240510"
-  checksum: 5a58ac89b85fa9547bd570166b9c3796902db1802cc9fc0c2b44b6df7741b0b6d607a423561912bcad27af0ee590998610dee1d51c75d4ddb33daaa8bf45b986
+"react@npm:19.0.0-beta-26f2496093-20240514":
+  version: 19.0.0-beta-26f2496093-20240514
+  resolution: "react@npm:19.0.0-beta-26f2496093-20240514"
+  checksum: fc63f94750a9a853faaa039588418a8d706c776e6dd780a92d993819daf65d63603b05fd9cefaf9d2dd3b3513f1c9e65285085c8772c8ff8638882b3573403fa
   languageName: node
   linkType: hard
 
@@ -12636,10 +12636,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.25.0-beta-9d76c954cf-20240510":
-  version: 0.25.0-beta-9d76c954cf-20240510
-  resolution: "scheduler@npm:0.25.0-beta-9d76c954cf-20240510"
-  checksum: 823f30e799324fabb2073f06d0dd4dd5edb993c1e62556a83fe04d1b357bd9ddf22324ba97f244f037f2c1cf2f65c518cabd18f0deada6534bc06fa4aa00123e
+"scheduler@npm:0.25.0-beta-26f2496093-20240514":
+  version: 0.25.0-beta-26f2496093-20240514
+  resolution: "scheduler@npm:0.25.0-beta-26f2496093-20240514"
+  checksum: e61c97a9b67117bd75dd3c6f6b24794ff1b3ccfeb1533e1d3d111a1d1524f70ed2c705e3f4980c721777e9c465212580098fb845be621701bff959e2e48ac007
   languageName: node
   linkType: hard
 
@@ -13055,7 +13055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.7.3":
+"source-map@npm:^0.7.3, source-map@npm:^0.7.4":
   version: 0.7.4
   resolution: "source-map@npm:0.7.4"
   checksum: 01cc5a74b1f0e1d626a58d36ad6898ea820567e87f18dfc9d24a9843a351aaa2ec09b87422589906d6ff1deed29693e176194dc88bcae7c9a852dc74b311dbf5
@@ -14229,6 +14229,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vite-bundle-analyzer@npm:^0.9.4":
+  version: 0.9.4
+  resolution: "vite-bundle-analyzer@npm:0.9.4"
+  dependencies:
+    picocolors: ^1.0.0
+    source-map: ^0.7.4
+  checksum: d29220b968582f644e47d5091ec317a78f2ab6cb135e94eb001d41fd72970c58f1beadca3ce997303183e291e4551c05b0a8cc1bd30e28987319629ca619b6a8
+  languageName: node
+  linkType: hard
+
 "vite@npm:6.0.0-alpha.11":
   version: 6.0.0-alpha.11
   resolution: "vite@npm:6.0.0-alpha.11"
@@ -14408,7 +14418,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"vxrn@0.1.73, vxrn@workspace:packages/vxrn":
+"vxrn@0.1.76, vxrn@workspace:packages/vxrn":
   version: 0.0.0-use.local
   resolution: "vxrn@workspace:packages/vxrn"
   dependencies:
@@ -14420,12 +14430,12 @@ __metadata:
     "@types/ws": ^8.5.10
     "@vitejs/plugin-react": ^4.2.1
     "@vitejs/plugin-react-swc": ^3.6.0
-    "@vxrn/react-native-prebuilt": 0.1.73
-    "@vxrn/safe-area": 0.1.73
-    "@vxrn/vite-flow": 0.1.73
-    "@vxrn/vite-native-client": 0.1.73
-    "@vxrn/vite-native-hmr": 0.1.73
-    "@vxrn/vite-native-swc": 0.1.73
+    "@vxrn/react-native-prebuilt": 0.1.76
+    "@vxrn/safe-area": 0.1.76
+    "@vxrn/vite-flow": 0.1.76
+    "@vxrn/vite-native-client": 0.1.76
+    "@vxrn/vite-native-hmr": 0.1.76
+    "@vxrn/vite-native-swc": 0.1.76
     citty: ^0.1.6
     crossws: ^0.2.4
     es-module-lexer: ^1.3.0
@@ -14455,14 +14465,15 @@ __metadata:
     source-map: ^0.7.3
     url: ^0.11.0
     vite: 6.0.0-alpha.11
-    vxs: 0.1.73
+    vite-bundle-analyzer: ^0.9.4
+    vxs: 0.1.76
     ws: ^8.7.0
   bin:
     vxrn: run.mjs
   languageName: unknown
   linkType: soft
 
-"vxs@0.1.73, vxs@workspace:packages/vxs":
+"vxs@0.1.76, vxs@workspace:packages/vxs":
   version: 0.0.0-use.local
   resolution: "vxs@workspace:packages/vxs"
   dependencies:
@@ -14486,7 +14497,7 @@ __metadata:
     fast-deep-equal: ^3.1.3
     magic-string: ^0.30.10
     query-string: 7.1.3
-    react: 19.0.0-beta-9d76c954cf-20240510
+    react: 19.0.0-beta-26f2496093-20240514
     react-native: 0.73.2
     react-native-safe-area-context: 4.6.3
     react-native-screens: 3.22.1

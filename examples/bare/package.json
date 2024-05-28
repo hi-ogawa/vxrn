@@ -11,7 +11,7 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "react": "19.0.0-beta-9d76c954cf-20240510",
+    "react": "19.0.0-beta-26f2496093-20240514",
     "react-native": "0.73.2"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "patch-package": "^8.0.0",
     "react-test-renderer": "18.2.0",
     "typescript": "^5.2.2",
-    "vxrn": "0.1.73"
+    "vxrn": "0.1.76"
   },
   "engines": {
     "node": ">=18"
